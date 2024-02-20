@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Nuxt 3 Bulma Blog Template',
+  title: 'Nero bag - 尼禄袋子',
   link: [
     {
       rel: 'stylesheet',
@@ -17,6 +17,10 @@ useHead({
     {
       rel: 'stylesheet',
       href: 'https://unpkg.com/bulma@0.9.3/css/bulma.min.css'
+    },
+    {
+      rel: 'icon',
+      href: '/bag.png'
     }
   ]
 })
@@ -50,18 +54,22 @@ a:hover {
 .navbar.is-white {
   background: #f0f2f4;
 }
+
 .navbar-brand .brand-text {
   font-size: 1.11rem;
   font-weight: bold;
 }
+
 .articles {
   margin: 5rem 0;
   margin-top: -200px;
 }
+
 .articles .content p {
   line-height: 1.9;
   margin: 15px 0;
 }
+
 .author-image {
   position: absolute;
   top: -30px;
@@ -72,31 +80,38 @@ a:hover {
   border: 3px solid #ccc;
   border-radius: 50%;
 }
+
 .media-center {
   display: block;
   margin-bottom: 1rem;
 }
+
 .article,
 .promo-block {
   margin-top: 6rem;
 }
+
 div.column.is-8:first-child {
   padding-top: 0;
   margin-top: 0;
 }
+
 .article-title {
   font-size: 2rem;
   font-weight: lighter;
   line-height: 2;
 }
+
 .article-subtitle {
   color: #909aa0;
   margin-bottom: 3rem;
 }
+
 .article-body {
   line-height: 1.4;
   margin: 0 6rem;
 }
+
 .promo-block .container {
   margin: 1rem 5rem;
 }
