@@ -8,7 +8,7 @@ useHead({
     },
     {
       rel: 'stylesheet',
-      href: 'https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'
+      href: 'https://cdnjs.cloudflare.com /ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'
     },
     {
       rel: 'stylesheet',
