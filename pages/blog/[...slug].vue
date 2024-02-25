@@ -18,10 +18,10 @@ const { data: bolgPost } = await useAsyncData(`content-${path}`, () => {
         </TheHero>
         <div class="container">
             <section class="articles">
-                <div class="column is-8 is-offset-2">
+                <div class="column is-10 is-offset-1">
                     <section class="blog-post-card card article">
                         <div class="card-content">
-                            <div class="content article-body is-size-5">
+                            <div class="content  article-body is-size-6">
                                 <ContentDoc />
                             </div>
                         </div>

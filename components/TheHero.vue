@@ -9,7 +9,10 @@
         <h1 class="title is-size-1">
           <slot />
         </h1>
+        <!-- <h3 class="title is-3"> -->
         <slot name="subtitle" />
+        <!-- </h3> -->
+
       </div>
     </div>
   </section>
@@ -24,8 +27,6 @@
 }
 
 .gradient {
-
-
   /* 背景渐变色 */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   /* 背景尺寸  */
