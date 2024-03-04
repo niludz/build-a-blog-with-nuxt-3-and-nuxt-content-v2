@@ -3,6 +3,8 @@ title: 我理解的Javascript原型
 dates:
   published: "2024-02-21"
 description: 通过对象字面量与构造函数的方式来创建对象理解原型链，类是构造函数的语法糖，类之间的继承extend是构建原型链的一种方式。
+picture: '/fox.png'
+
 ---
 
 
